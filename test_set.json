@@ -1,0 +1,56 @@
+{
+    "settings": {
+        "mib3oigp": {
+            "components": {
+                "nav": {
+                    "res_col_id": "AP",
+                    "anchor_column": "Name",
+                    "test_case_link": "http://vwavncb.lge.com:8080/cb/tracker/73303386?view_id=-11&subtreeRoot=26867344",
+                    "test_set_link": "http://vwavncb.lge.com:8080/cb/category/77502497"
+                },
+                "sds": {
+                    "res_col_id": "H",
+                    "anchor_column": "name",
+                    "test_case_link": "http://vwavncb.lge.com:8080/cb/tracker/73303386?view_id=-11&subtreeRoot=21733926",
+                    "test_set_link": "http://vwavncb.lge.com:8080/cb/category/100046653"
+                }
+            },
+            "version_pattern": "C\\d{3}\\.\\d{2}",
+            "test_set_tracker": "Test Set_VW",
+            "test_run_item_prefix": "[MIB3 GP ST] TestRun_VW_NAR_",
+            "test_configuration": "MIB3GP"
+        },
+        "nar classic": {
+            "components": {
+                "nav": {
+                    "res_col_id": "P",
+                    "anchor_column": "test steps.action",
+                    "test_case_link": "http://vwavncb.lge.com:8080/cb/category/94014605?view_id=-2",
+                    "test_set_link": "http://vwavncb.lge.com:8080/cb/category/100046653"
+                },
+                "sdars": {
+                    "res_col_id": "I",
+                    "anchor_column": "Name",
+                    "test_case_link": "http://vwavncb.lge.com:8080/cb/category/94014605?view_id=-2",
+                    "test_set_link": "http://vwavncb.lge.com:8080/cb/category/100046653"
+                },
+                "navi + rvc": {
+                    "res_col_id": "H",
+                    "anchor_column": "Name",
+                    "test_case_link": "http://vwavncb.lge.com:8080/cb/category/94014605?view_id=-2",
+                    "test_set_link": "http://vwavncb.lge.com:8080/cb/category/100046653"
+                },
+                "sds": {
+                    "res_col_id": "H",
+                    "anchor_column": "name",
+                    "test_case_link": "http://vwavncb.lge.com:8080/cb/category/94014605?view_id=-2",
+                    "test_set_link": "http://vwavncb.lge.com:8080/cb/category/100046653"
+                }
+            },
+            "version_pattern": "N\\d{3}\\.\\d{2}",
+            "test_set_tracker": "Test Set_MQBClassicNAR",
+            "test_run_item_prefix": "[MQB ClassicNAR ST] TestRun_VW_",
+            "test_configuration": "MQB_NAR"
+        }
+    }
+}
