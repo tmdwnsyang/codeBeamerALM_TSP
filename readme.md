@@ -45,7 +45,7 @@ The script primarily performs three sequential steps:
 
 Before initiating the first step, the script ensures that the spreadsheet is valid. To guarantee the script’s successful execution, please meet all the requirements specified in the following section, [Setting Up Your Spreadsheet](#iii.-setting-up-your-spreadsheet). 
 
-In the first step, the script verifies whether an existing test set is present by searching the codeBeamer database.* In an effort to prevent duplicate entries, newly selected test cases are appended to the existing set*. Otherwise, a new test set is created. Once the test set is successfully created, it can be accessed via codeBeamer. The newly created test set, named `[component name][version number] Test Set [priority description]`, can be found in the corresponding project directories. Currently, the supported projects are NAR Classic and MIB3GP. Support for ICAS3GP is under consideration for future releases.
+In the first step, the script verifies whether an existing test set is present by searching the codeBeamer database.*In an effort to prevent duplicate entries, newly selected test cases are appended to the existing set*. Otherwise, a new test set is created. Once the test set is successfully created, it can be accessed via codeBeamer. The newly created test set, named `[component name][version number] Test Set [priority description]`, can be found in the corresponding project directories. Currently, the supported projects are NAR Classic and MIB3GP. Support for ICAS3GP is under consideration for future releases.
 
 In the second step, prior to performing the test runs, the following configuration options are set for the NAR:
 
